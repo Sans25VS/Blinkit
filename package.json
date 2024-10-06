@@ -15,6 +15,7 @@
     "dotenv": "^16.4.5",
     "fastify": "^5.0.0",
     "mongoose": "^8.7.0",
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "tslib": "^2.7.0"
   }
 }
