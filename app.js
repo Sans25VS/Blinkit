@@ -1,7 +1,7 @@
 import "dotenv/config"; // Corrected this line
 import fastify from "fastify";
 import { connectDB } from "./src/config/connect.js";
-
+//import {PORT} from "./src/config/config.js";
 const start = async () => {
     await connectDB(process.env.MONGO_URI);
     const app = fastify();
